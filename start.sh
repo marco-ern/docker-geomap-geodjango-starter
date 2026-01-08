@@ -18,7 +18,6 @@ python manage.py migrate
 python manage.py shell -c "from core.models import Sismo; import sys; sys.exit(0 if Sismo.objects.exists() else 1)" \
   || python manage.py cargar_sismos_csv /app/backend/data/sismos_fuertes_ssn.csv
 
-python manage.py runserver 0.0.0.0:8000
 
 # Crear proyecto y app solo la primera vez
 if [ ! -f "manage.py" ]; then

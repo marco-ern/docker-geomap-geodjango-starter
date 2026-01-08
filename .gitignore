@@ -45,3 +45,5 @@ Thumbs.db
 
 # Archivos de Docker que no quieres versionar (si los hubiera)
 docker-data/
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md

@@ -342,7 +342,7 @@ watch(radioKm, () => {
 </script>
 
 <style scoped>
-/* Deja aquí exactamente los estilos que ya tenías */
+/* Estilos CSS */
 .app-layout {
   display: flex;
   flex-direction: column;
