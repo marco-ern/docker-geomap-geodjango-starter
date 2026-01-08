@@ -1,0 +1,47 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de base de datos locales
+backend/db.sqlite3
+
+# Archivos de entorno / configuración sensible
+.env
+*.env
+
+# Archivos de logs
+*.log
+logs/
+logging/
+
+# Archivos de compilación / dist del frontend
+frontend/sismos-mapa/node_modules/
+frontend/sismos-mapa/dist/
+
+# Archivos de Vite / tooling
+frontend/sismos-mapa/.vite/
+frontend/sismos-mapa/.eslintcache
+
+# Archivos de editor / sistema
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos de Docker que no quieres versionar (si los hubiera)
+docker-data/
